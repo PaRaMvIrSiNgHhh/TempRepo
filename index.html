@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Feedback Form</h2>
+        <form action="submit.php" method="POST" onsubmit="return validateForm()">
+            <input type="text" name="name" id="name" placeholder="Your Name">
+            <input type="email" name="email" id="email" placeholder="Your Email">
+            <textarea name="message" id="message" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Feedback">
+        </form>
+    </div>
+</body>
+</html>
