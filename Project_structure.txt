@@ -1,0 +1,5 @@
+voice-assistant
+│
+├── voice_assistant_app.py       # Main Streamlit app
+├── requirements.txt             # Python dependencies
+├── README.txt                   # Project overview and instructions
